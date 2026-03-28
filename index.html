@@ -23,7 +23,7 @@
                     </div>
                     <div class="form-group">
                         <label for="last_name">Last Name</label>
-                        <input type="text" id="lastname" name="lastname">
+                        <input type="text" id="last_name" name="last_name">
                     </div>
                     <div class="form-group">
                         <label for="first_name_amharic">First Name (Amharic)</label>
@@ -52,6 +52,21 @@
                         <label for="profile_picture">Profile Picture</label>    
                         <input type="file" id="profile_picture" name="profile_picture">
                     </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Password</h2>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm_password">Confirm Password</label>
+                        <input type="password" id="confirm_password" name="confirm_password">
+                    </div>
+                    <button type="button" id="generate_password" class="submit-btn">Generate Password</button>
                 </div>
             </div>
 
@@ -87,7 +102,7 @@
                         <input type="text" id="city" name="city">
                     </div>
                     <div class="form-group">
-                        <label for="state">Woreda</label>
+                        <label for="woreda">Woreda</label>
                         <input type="text" id="woreda" name="woreda">
                     </div>
                     <div class="form-group">
@@ -114,6 +129,80 @@
                         <label for="account_number">Account Number</label>
                         <input type="text" id="account_number" name="account_number">
                     </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Educational Information</h2>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="highest_education">Highest Education</label>
+                        <input type="text" id="highest_education" name="highest_education">
+                    </div>
+                </div>
+
+                <h2>Work Experience</h2>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="company_name">Company Name</label>
+                        <input type="text" id="company_name" name="company_name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="position">Position</label>
+                    <input type="text" id="position" name="position">
+                </div>
+                <div class="form-group">
+                    <label for="start_date">Start Date</label>
+                    <input type="date" id="start_date" name="start_date">
+                </div>
+                <div class="form-group">
+                    <label for="end_date">End Date</label>
+                    <input type="date" id="end_date" name="end_date">
+                </div>
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea id="description" name="description"></textarea>
+                </div>
+
+                <h2>Credentials</h2>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="credentials">Credentials</label>
+                        <input type="file" id="credentials" name="credentials">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="credentials_description">Credentials Description</label>
+                    <textarea id="credentials_description" name="credentials_description"></textarea>
+                </div>
+
+                <h2>Authentication Information</h2>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="authentication_type">Authentication Type</label>
+                        <input type="text" id="authentication_type" name="authentication_type">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="authentication_description">Authentication Description</label>
+                    <textarea id="authentication_description" name="authentication_description"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="authentication_date">Authentication Date</label>
+                    <input type="date" id="authentication_date" name="authentication_date">
+                </div>
+                <div class="form-group">
+                    <label for="authentication_time">Authentication Time</label>
+                    <input type="time" id="authentication_time" name="authentication_time">
+                </div>
+                <div class="form-group">
+                    <label for="authentication_location">Authentication Location</label>
+                    <input type="text" id="authentication_location" name="authentication_location">
+                </div>
+                <div class="form-group">
+                    <label for="authentication_ip">Authentication IP</label>
+                    <input type="text" id="authentication_ip" name="authentication_ip">
                 </div>
             </div>
         </form>
